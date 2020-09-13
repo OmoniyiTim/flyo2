@@ -1,0 +1,214 @@
+@media only screen and (max-width:1200px){
+    header ul {
+        position: relative;
+        top: 2.2em;
+        left: -12em;
+    }
+    header nav ul li a{
+        font-weight:  100;
+    }
+    .row1 .row1-img {
+        margin: 2px 65px 0 -14px;
+    }
+    .row1-side1 .row1-form input[type="email" ] {
+        width: 310px;
+        height: 53px;
+    }
+    .row1 .row1-img img {
+        width: 537px;
+        height: 322px;
+    }
+    .row1-side1 .row1-form button {
+        width: 128px;
+        height: 55px;
+    }
+    .row3 .row3-img img {
+        width: 601px;
+        height: 322px;
+        margin-left: 77px;
+    }
+    .row3 .row3-side1 .row3-msg {
+        width: 445px;
+        font-size: 20px;
+    }
+    .row3 .box {
+        width: 441px;
+        height: 184px;
+        padding: 25px;
+        font-size: 18px;
+    }
+    .row4 {
+        font-size: 22px;
+    }
+    .row4 .side2 {
+        padding: 94px 0 0 85px;
+        display: flex;
+        flex-direction: column;
+    }
+    .row4 .side2 input[type="email" ] {
+        width: 372px;
+        height: 57px;
+    }
+    .row4 .side2 input[type="email" ]::placeholder {
+     font-size: 20px;
+    }
+    .row4 .side2 button {
+        outline: none;
+        width: 159px;
+        height: 59px;
+        border: 1px solid transparent;
+        border-radius: 30px;
+    }
+    footer .foot-container .flist1 {
+        margin: 30px 0 0 60px;
+        font-size: 22px;
+        line-height: 29px;
+    }
+}
+@media only screen and (max-width:1023px){
+   
+    header ul {
+        position: relative;
+        top: 2.2em;
+        left: -12em;
+    }
+    header nav ul li a{
+        font-weight:  100;
+    }
+    .row1 .row1-img img {
+        width: 373px;
+        height: 322px;
+    }
+    .row3 .row3-img img {
+        width: 439px;
+        height: 322px;
+        margin-left: 77px;
+    }
+    .row4 {
+        font-size: 18px;
+    }
+    .row4 .side2 input[type="email" ] {
+        width: 372px;
+        height: 48px;
+    }
+    .row4 .side2 button {
+        outline: none;
+        width: 159px;
+        height: 46px;
+        border: 1px solid transparent;
+        border-radius: 16px;
+    }
+    footer .foot-container .flist1 {
+        margin: 30px 0 0 60px;
+        font-size: 17px;
+        line-height: 29px;
+    }
+    footer .foot-container .flist {
+        margin: 70px 0 0 222px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+
+
+    header ul {
+        display: none;
+        flex-direction: column;
+        position: relative;
+        top: 6.2em;
+        left: -17em;
+        text-align: center;
+        line-height: 62px;
+        background-color: blue;
+        width:86em;
+        height: 22em;
+    }
+    header nav ul li {
+        float: left;
+        list-style-type: none;
+        margin-top: 41px;
+    }
+    header .nav-icon{
+        display: block;
+        position: relative;
+        left: -10em;
+        top: 2em;
+    }
+    
+
+
+/*   ===================SECTION1=================== */
+    .row1 {
+        height: 400px;
+        margin: 100px 0 0 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+/*   ===================SECTION1=================== */
+    .row1 {
+        height: 400px;
+        margin: 100px 0 0 93px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 768px;
+    }
+    .row1 .row1-side1 .row1-msg {
+        font-size: 22px;
+    }
+    .row1 .row1-img {
+        margin: 57px 65px 0 86px;
+    }
+    .row1-side1 .row1-form {
+        margin-top: 25px;
+    }
+    .row1-side1 .row1-form input[type="email" ] {
+        width: 424px;
+        height: 57px;
+        margin-right: 21px;
+    }
+    ::placeholder{
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    .row1-side1 .row1-form button {
+        outline: none;
+        width: 128px;
+        height: 57px;
+        font-size: 22px;
+        background-color: hsl(224, 93%, 58%);
+        border: 1px solid transparent;
+    
+    }
+/*   ===================SECTION3=================== */
+    .row3 {
+        height: 520px;
+        display: flex;
+        margin: 251px 0 0 0;
+        padding: 0px 0 0 0px;
+        background-color: #f8f8fe;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row3 .row3-side1 .row3-msg {
+        width: 445px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .row4 {
+        display: flex;
+        height: 250px;
+        background-color: hsl(238, 22%, 44%);
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 4141px){}

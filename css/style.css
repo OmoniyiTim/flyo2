@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Open Sans;
+    font-weight: 400;
+}
+
+/* ----------------------HEADER------------------- */
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    z-index: 100;
+    transition: all 0.2s;
+}
+header.active{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background-color: hsl(243, 87%, 12%);
+    transition: all 0.2s;
+}
+header .img-contaner{
+    padding: 35px 0 0 95px;
+}
+header .img-contaner .nav-image{
+ width: 135px;
+ height: 40px;
+}
+header ul {
+    position: relative;
+    top: 2.2em;
+    left: -4em;
+}
+header nav ul li{
+    float: left;
+    list-style-type: none;
+  
+}
+header nav ul li a{
+ text-decoration: none;
+ color: black;
+ padding: 45px 50px 0 60px;
+ font-size: 30px;
+ font-family:Raleway;
+ font-weight:  200;
+}
+header .nav-icon{
+ display: none;
+}
+header .nav-icon img{
+    width: 50px;
+    height: 50px;
+  
+}
+/* -------THE BODY & SECTION STYLES------- */
+/* --------------SECTION1---------------- */
+.row1 {
+    height: 400px;
+    margin: 100px 0 0 60px;
+    display: flex;
+}
+.row1 .row1-side1 .row1-msg{
+    margin-top: 65px;
+    font-size: 20px;
+    width: 600px;
+    
+}
+.row1-side1 .row1-form{
+    margin-top: 20px;
+}
+.row1-side1 .row1-form input[type="email" ]{
+    width: 310px;
+    height: 34px;
+}
+.row1-side1 .row1-form  button{
+    outline: none;
+    width: 128px;
+    height: 39px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.row1 .row1-img {
+    margin: 2px  65px 0 44px;
+}
+.row1 .row1-img img{
+    width: 601px;
+    height: 322px;
+}
+
+
+
+
+/* -----------------SECTION2-------------------- */
+
+.row2-illus {
+   
+
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f8f8fe;
+    position: relative;
+    z-index: -1;
+    top: 3em;
+    
+}
+.row3{
+    height: 520px;
+    display: flex;
+    margin: -6px 0 0 0;
+    padding: 0px 0 0 60px;
+    background-color: #f8f8fe; 
+    
+}
+.row3 .box {
+    width: 314px;
+    height: 160px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #c7c7c7;
+    margin-top: 40px;
+}
+.row3  .row3-side1 .row3-msg{
+    width: 445px;
+
+  
+}
+.row3  .row3-side1 .row3-msg a{
+    color: green;
+    text-decoration: underline;
+    font-size: 22px;
+
+}
+
+.row3-illus img{
+    width: 84em;
+    height: 8em;
+}
+
+.row3  .row3-img  img{
+    width: 601px;
+    height: 322px;
+    margin-left: 190px;
+    
+}
+.box .avater{
+ width: 32px;
+ height: 32px;
+ position: relative;
+ top: 40px;
+ border: 1px solid transparent;
+ border-radius: 50%;
+}
+.box  .box-msg .testi{
+    margin-left: 50px;
+
+}
+
+/* ---------------------------SECTION4---------------------- */
+.row4 {
+    display: flex;
+    height: 250px;
+    background-color: hsl(238, 22%, 44%)
+    
+}    
+.row4 .side1{
+    padding: 84px 0 0 60px;
+    color: white;
+}
+.row4 .side2 {
+    padding: 94px 0 0 377px;
+    display: flex;
+    flex-direction: column;
+
+}
+.row4 .side2 input[type="email" ]{
+    width: 360px;
+    height: 37px;
+}
+.row4 .side2 button{
+    outline: none;
+    width: 128px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid transparent;
+}
+
+/* --------------------FOOTER ---------------------*/
+footer{
+    height: 265px;
+    background-color:  hsl(243, 87%, 12%);
+   
+}
+footer .foot-container{
+    display: flex;
+    color: white;
+
+}
+
+footer .foot-container .flist1{
+    margin:30px 0 0 60px;
+}
+footer .foot-container .flist1 img{
+    margin:30px 0 0 0px;
+    filter: invert(15%) sepia(15%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(160%);
+}
+footer .foot-container  ul{
+ 
+   line-height: 30px;
+}
+footer .foot-container  ul li {
+    list-style-type: none;
+}
+footer .foot-container  ul li  a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .foot-container .flist{
+    margin:70px 0 0 300px;
+  
+}
+
+p.attribution {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+p.attribution a{
+    color: white;
+    word-spacing: 5px;
+}
